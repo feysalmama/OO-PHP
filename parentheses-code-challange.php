@@ -1,6 +1,6 @@
 <?php
 
- class Solution{
+ class Parenthese{
     public $charactorArray = ['(',')','{','}','[',']'];
     public $stack = [];
 
@@ -62,7 +62,7 @@
         }   
      }
  }
- $solution  = new Solution();
+ $solution  = new Parenthese();
  echo $solution->isValid("[(){({})}]{}")
 
 ?>
